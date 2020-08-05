@@ -50,6 +50,7 @@ html{
     background:black;
     display: inline-block;
     width: 100%;
+    padding: left;
 }
 #section4{
     height: 700px;
