@@ -1,34 +1,80 @@
-#section2 {
-    background-color:black;
-    border: black;
-    padding: 4px;
-    color: white;
+html{
+    scroll-behavior: smooth;
 }
-#section2 h3{
-    font-weight: bold;
-    font-style: inherit;
-    font-size: 20px;
-    color: blueviolet;
+   body{
+       margin:0;
+       padding: 0;
+       font-family:sans-serif ;
+       color: white;
+   }
+   
+ nav{
+     width: 100%;
+     background:black;
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+ }
+ ul{
+     padding: 0;
+     margin: 0;
+     list-style: square;
+ }
+ 
+ a{
+     padding:  20px;
+     width: 100px;
+     display: block;
+     text-decoration: powderblue;
+     color: white;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+#section1{
+    height: 700px;
+    background:black;
+    display: inline-block;
+    width: 100%;
 }
-#section2 ul{
-    width: 50%;
+#section2{
     height: 100%;
-    font-weight: bold;
-    color: white;
-}
-#section2 ol{
-    font-weight: bold;
-    font-style: italic;
-    color: blueviolet;
-    flex: inherit;
-}
-#section2 p{
+    background: black;
     width: 80%;
-    height: 100%;
-    font-family: sans-serif;
+    display: inline-block;
+    }
+    #section2 h3{
+        color: blueviolet;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    #section2 p{
+        text-align: left;
+        font-weight: bold;
+    }
+    #section2 ul{
+text-align: left;
+width: 50%;
+height: 100%;
+font-weight: bold;
+color: white;
+    }
+#section3{
+    height: 700px;
+    background:black;
+    display: inline-block;
+    width: 100%;
+    padding: left;
 }
-#section2 h1{
+#section4{
+    height: 700px;
+    background:black;
+    display: inline-block;
+    width: 100%;
+}
+h1{
+    margin: 100px;
     text-align: center;
+<<<<<<< HEAD
     background-color: #cacaca;
     border: black;
     padding: 10px;
@@ -80,4 +126,40 @@ span{
 }
 
 
+=======
+    padding: 0       ;
+}
+img{
+    padding-right: 100;
+}
+*{
+    background-color:black;
+}
+#more {display: none;}
+.button{
+    background-color: cornsilk;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    color: black;
+    background-color: black;
+    font-weight: bold;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  
+  div {
+    background-color: black;
+    font-weight: bold;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  body {
+    background-color: black;
+  }
+>>>>>>> 6c615824bd29ff840168dd8b041e72bf9e08d82e
 
