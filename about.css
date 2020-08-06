@@ -9,6 +9,10 @@ img{
     margin: 0px;
     margin-left: 0px;
 }
+.logo{
+    width: 150px;
+    height: 100px;
+}
 .navigation{
     color: black;
     text-align: center;
@@ -22,10 +26,6 @@ img{
     text-align:left;
     color: white;
 }
-.logo{
-    width: 70px;
-    height: 70px;
-}
 #submission{
     padding-bottom: 10%;
 }
@@ -38,8 +38,6 @@ a:hover{
     background-color: white;
     text-align: center;
     margin-top: 3
-}
-
 }
 footer{
     color:black;
